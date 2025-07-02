@@ -132,7 +132,7 @@ ol>li::marker {
 
 hr {
   border: 1px solid #ddd;
-  margin: 2rem 0rem 0rem;
+  margin: 2rem 0rem 2rem;
 }
 
 .nutrition p {
@@ -142,7 +142,7 @@ hr {
 table {
   table-layout: fixed;
   border-collapse: collapse;
-  width: 19.438rem;
+  width: 100%;
   text-align: left;
 }
 
@@ -208,4 +208,5 @@ tr:nth-child(4) {
     padding: 1rem 2rem 1rem;
     margin: 1.5rem 0rem 1.5rem 0rem;
   }
+
 }
