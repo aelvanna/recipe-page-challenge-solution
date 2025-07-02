@@ -29,7 +29,7 @@ This is a solution to the [Recipe page challenge on Frontend Mentor](https://www
 
 ### Links
 
-- Solution URL: [Add solution URL here](https://your-solution-url.com)
+- Solution URL: [https://www.frontendmentor.io/solutions/recipe-page-challenge-solution-AVs07LTejC](https://www.frontendmentor.io/solutions/recipe-page-challenge-solution-AVs07LTejC)
 - Live Site URL: [https://recipe-page-challenge-solution-01.netlify.app](https://recipe-page-challenge-solution-01.netlify.app)
 
 ## My process
