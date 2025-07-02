@@ -111,7 +111,7 @@ ul li::before {
   border-radius: 0.5em;
   margin-right: 2rem;
   margin-left: -1rem;
-  padding-left: 0px;
+  padding-left: 0rem;
 }
 
 ol {
@@ -174,7 +174,7 @@ tr:nth-child(4) {
   color: var(--link-color);
 }
 
-@media only screen and (min-width: 768px) and (max-width: 2560px) {
+@media only screen and (min-width: 768px) and (min-width: 2560px) {
   .container {
     background: var(--Stone-100);
     width: 100%;
