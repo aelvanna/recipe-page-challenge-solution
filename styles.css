@@ -83,7 +83,36 @@ ol {
 }
 
 hr {
+  border: 1px solid #ddd;
   margin: 2rem 0rem 0rem;
+}
+
+/*th,
+td {
+
+  padding: 1rem 6rem 1rem 2rem;
+}*/
+
+table {
+  table-layout: fixed;
+  border-collapse: collapse;
+  width: 19.438rem;
+  text-align: left;
+}
+
+th,
+td {
+  border-bottom: 1px solid #ddd;
+}
+
+th {
+  padding: 1rem 4.5rem 1rem 2rem;
+  font-weight: normal;
+}
+
+td {
+  font-weight: bold;
+  color: var(--Brown-800);
 }
 
 .container {
@@ -122,7 +151,8 @@ img {
 }
 
 .ingredients,
-.instructions {
+.instructions,
+.nutrition {
   margin: 2rem;
 }
 
@@ -159,4 +189,8 @@ ol li {
 ol>li::marker {
   font-weight: bold;
   color: var(--Brown-800);
+}
+
+.nutrition p {
+  padding: 0rem 0rem 1rem;
 }
