@@ -15,8 +15,6 @@ This is a solution to the [Recipe page challenge on Frontend Mentor](https://www
   - [Useful resources](#useful-resources)
 - [Author](#author)
 
-**Note: Delete this note and update the table of contents based on what sections you keep.**
-
 ## Overview
 
 ### Screenshot
@@ -27,12 +25,12 @@ This is a solution to the [Recipe page challenge on Frontend Mentor](https://www
 
 #### Mobile View
 
-![Mobile View] (./preview-mobile-jpg)
+![Mobile View](./preview-mobile.jpg)
 
 ### Links
 
 - Solution URL: [Add solution URL here](https://your-solution-url.com)
-- Live Site URL: [Add live site URL here](https://your-live-site-url.com)
+- Live Site URL: [https://recipe-page-challenge-solution-01.netlify.app](https://recipe-page-challenge-solution-01.netlify.app)
 
 ## My process
 
@@ -68,12 +66,12 @@ ol > li::marker {
 
 ### Continued development
 
-In the future I would like to work more with lists and get used to styling them with pseudo elements. I would also like to continue working in a mobile-first workflow.
+In the future I would like to work more with lists and get used to styling them with pseudo elements. I would also like to continue practicing using a mobile-first workflow.
 
 ### Useful resources
 
 - [Stackoverflow](https://stackoverflow.com/questions/21369843/is-there-a-way-to-make-numbers-in-an-ordered-list-bold) - I had an issue making the numbers in the ordered list to be bold, the solution by Kevinoid worked
-- [YouTube Video by CSS Express](https://www.youtube.com/watch?v=w9gVDgFzPO8) - This video helped me solve my problem of vertically centering the bullet points in the preparation section with the associated text in mobile view
+- [YouTube Video by CSS Express](https://www.youtube.com/watch?v=w9gVDgFzPO8) - This video helped me solve my problem of vertically centering the bullet points in the preparation section of index.html
 
 - [W3Schools How to CSS style HR](https://www.w3schools.com/howto/howto_css_style_hr.asp) - This page helped me understand how to style a horizontal ruler/line element
 
