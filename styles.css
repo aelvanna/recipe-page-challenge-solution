@@ -190,13 +190,13 @@ tr:nth-child(4) {
     background: var(--white);
     max-width: 50%;
     margin: 10rem auto;
-    border-radius: 2rem;
+    border-radius: 1.5rem;
     padding: 2rem;
   }
 
   img {
     max-width: 100%;
-    border-radius: 1.25rem;
+    border-radius: 1.5rem;
   }
 
   h1 {
