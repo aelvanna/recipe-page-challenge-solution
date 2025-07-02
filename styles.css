@@ -174,7 +174,7 @@ tr:nth-child(4) {
   color: var(--link-color);
 }
 
-@media only screen and (min-width: 768px) and (max-width: 1440px) {
+@media only screen and (min-width: 768px) and (max-width: 2560px) {
   .container {
     background: var(--Stone-100);
     width: 100%;
