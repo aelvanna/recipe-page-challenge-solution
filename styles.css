@@ -55,7 +55,7 @@ h1 {
   margin: 0rem 0rem 1.5rem;
 }
 
-h2 {
+h3 {
   font-family: "Young Serif", sans-serif;
   font-size: 1.5rem;
   font-weight: 400;
@@ -63,7 +63,7 @@ h2 {
   margin: 0rem 0rem 1rem;
 }
 
-h3 {
+h2 {
   font-weight: 600;
   font-size: 1.125rem;
   color: var(--Rose-800);
@@ -131,7 +131,7 @@ ol>li::marker {
 }
 
 hr {
-  border: 1px solid #ddd;
+  border: 1px solid #eee;
   margin: 2rem 0rem 2rem;
 }
 
