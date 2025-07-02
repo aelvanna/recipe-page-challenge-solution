@@ -12,32 +12,91 @@
 
 }
 
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  color: var(--Stone-600);
+  font-family: 'Outfit';
+}
+
 /* Imported Fonts */
 
 @font-face {
   font-family: 'Young Serif';
-  src: url(./assets\fonts\young-serif\YoungSerif-Regular.ttf);
+  src: url(/assets/fonts/young-serif/YoungSerif-Regular.ttf);
   font-weight: 400;
 }
 
 @font-face {
   font-family: 'Outfit';
-  src: url(./assets/fonts/outfit/Outfit-VariableFont_wght.ttf);
+  src: url(/assets/fonts/outfit/Outfit-VariableFont_wght.ttf);
   font-weight: 400;
 }
 
 @font-face {
   font-family: 'Outfit';
-  src: url(./assets/fonts/outfit/Outfit-VariableFont_wght.ttf);
+  src: url(/assets/fonts/outfit/Outfit-VariableFont_wght.ttf);
   font-weight: 600;
 }
 
 @font-face {
   font-family: 'Outfit';
-  src: url(./assets/fonts/outfit/Outfit-VariableFont_wght.ttf);
+  src: url(/assets/fonts/outfit/Outfit-VariableFont_wght.ttf);
   font-weight: 700;
 }
 
+h1 {
+  font-family: 'Young Serif', sans-serif;
+  font-weight: 400;
+  font-size: 2rem;
+  color: var(--Stone-900);
+  line-height: 100%;
+  margin: 0rem 0rem 1.5rem;
+}
+
+h2 {
+  font-family: "Young Serif", sans-serif;
+  font-size: 1.5rem;
+  font-weight: 400;
+  color: var(--Brown-800);
+  margin: 0rem 0rem 1rem;
+}
+
+h3 {
+  font-family: 'Outfit', sans-serif;
+  font-weight: 600;
+  font-size: 1.125rem;
+  padding: 0rem 0rem 1rem;
+  color: var(--Rose-800);
+}
+
+p {
+  font-family: 'Outfit', sans-serif;
+  font-weight: 400;
+  font-size: 1rem;
+}
+
+ul,
+ol {
+  list-style: outside;
+}
+
+hr {
+  margin: 2rem 0rem 0rem;
+}
+
+.container {
+  background: var(--Stone-100);
+  height: 100vh;
+  width: 100%;
+}
+
+.card {
+  background: var(--white);
+  max-width: 23.438rem;
+  margin: 0 auto;
+}
 
 .attribution {
   font-size: 0.688rem;
@@ -46,4 +105,58 @@
 
 .attribution a {
   color: var(--link-color);
+}
+
+img {
+  max-width: 23.438rem;
+}
+
+.recipe-introduction {
+  margin: 2rem 2rem 0rem;
+}
+
+.preparation-time {
+  background: var(--Rose-50);
+  padding: 1rem 2rem 1rem;
+  margin: 2rem;
+}
+
+.ingredients,
+.instructions {
+  margin: 2rem;
+}
+
+ul li {
+  margin: 0rem 1.5rem 1rem;
+  list-style: none;
+  position: relative;
+  display: flex;
+  align-items: center;
+
+}
+
+ul li::before {
+  content: " ";
+  display: block;
+  border: solid 0.2em var(--Rose-800);
+  border-radius: 0.5em;
+  margin-right: 2rem;
+  margin-left: -1rem;
+  padding-left: 0px;
+}
+
+ol {
+  list-style-type: decimal;
+  font-family: 'Outfit', sans-serif;
+  margin: 0rem 0.5rem 0rem;
+}
+
+ol li {
+  padding-left: 1rem;
+  margin: 1rem 0rem 0rem 1rem;
+}
+
+ol>li::marker {
+  font-weight: bold;
+  color: var(--Brown-800);
 }
