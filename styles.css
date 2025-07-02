@@ -75,11 +75,6 @@ p {
   font-size: 1rem;
 }
 
-ul,
-ol {
-  list-style: outside;
-}
-
 img {
   max-width: 100%
 }
@@ -104,7 +99,7 @@ ul li {
 
 }
 
-ul li::before {
+.unordered-list ul li::before {
   content: " ";
   display: block;
   border: solid 0.2em var(--Rose-800);
@@ -114,18 +109,25 @@ ul li::before {
   padding-left: 0rem;
 }
 
+ul,
+ol {
+  list-style: outside;
+}
+
 ol {
   list-style-type: decimal;
   font-family: 'Outfit', sans-serif;
   margin: 0rem 0.5rem 0rem;
+
 }
 
 ol li {
-  padding-left: 1rem;
   margin: 1rem 0rem 0rem 1rem;
+  padding-left: 1.25rem;
+
 }
 
-ol>li::marker {
+.numbered-bullet ol>li::marker {
   font-weight: bold;
   color: var(--Brown-800);
 }
